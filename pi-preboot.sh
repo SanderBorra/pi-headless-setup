@@ -36,11 +36,11 @@ Configures via cloud-init (boot partition only):
 
 Examples:
   # Pi Zero 2W (64-bit)
-  sudo $0 --hostname pi-zero --user sander --password secret \\
+  sudo $0 --hostname pi-zero --user <user> --password <password> \\
           --wifi-ssid MyNetwork --wifi-pass mypass
 
   # Pi 1B Rev 2 (32-bit)
-  sudo $0 --hostname rp-black --user sander --password secret \\
+  sudo $0 --hostname rp-black --user <user> --password <password> \\
           --wifi-ssid MyNetwork --wifi-pass mypass --arch armhf
 EOF
 }
