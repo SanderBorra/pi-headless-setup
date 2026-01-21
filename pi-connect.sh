@@ -16,8 +16,8 @@ Required:
   --user        Username for SSH
 
 Examples:
-  $0 --host rp-black.local --user sander
-  $0 --host 192.168.1.188 --user sander
+  $0 --host rp-black.local --user <user>
+  $0 --host 192.168.1.188 --user <user>
 EOF
 }
 
